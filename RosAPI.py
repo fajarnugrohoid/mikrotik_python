@@ -35,7 +35,7 @@ class Core:
 	
 	Core part is taken mostly from http://wiki.mikrotik.com/wiki/Manual:API#Example_client."""
 
-	slack_client = SlackClient("xoxp-197545853990-197489316325-221127791845-f5f36c61100df780da5901686d0c1412")
+	slack_client = SlackClient("token slack client")
 
 	def __init__(self, hostname, port=8728, DEBUG=True):
 		self.DEBUG = DEBUG
